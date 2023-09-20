@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- comment in HTML 
+     What is a comment is a non executable statement in a code-->
+   
+
+     <!--  forms in HTML 
+     A form is an element that allows a user to input data to be submitted 
+     to a wed serverfor processing -->
+ <!-- 
+     1. Text Input (<input type="text">):
+        >Used for single-line text input.
+        >Commonly used for name ,emailor username fields
+
+     2. Password Input(<input type='password'.)
+       >Used for password input 
+       >Character are usually masked (er:asterisks)for security
+
+     3. Radio Button ,(<inputtype="radio">) 
+      > Used when users must select one option from multiple choices 
+      > Grouped by using the name attribute
+    
+     4. Checkboxes (<input type="checkbox">);
+
+      > Used when users can select multiple options
+
+    5.Dropdown List (<selct>);
+
+      > Used for selecting options from a list
+      >Contains <options> elements for each choice.
+
+    6.Text area (<textarea>)
+
+      >Used for multi-line text input,such as comments or messenges
+    
+      7. Form elements (<form>)
+        > The form elemnt is use to create the container for all form-related elements
+        > It defines where the data will be sent when the form is submitted (the 'action' attributed) and the HTTP method to use (usually "GET" or "POST,"specified by the "method" attribute)
+      8. Lables(<labels>)
+        > Labels provide a text description for the form elements , improving accessibility and user experience.
+        > They are associated with their respectives form elements using the "for" attribute.
+      9. Buttons (< inputs type-'submit'> or , <buttons>)
+         >these elements are used to submit the forms or trigger  specific actions
+         > Example (submit Buttons)  -->
+
+         <!-- Registration form Example -->
+        
+         <form action="signup.html">
+
+          <div>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username"required>
+          </div>
+
+          <div> 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"required> 
+          </div>
+
+          <div>
+            <label for="phonenumber">phonenumber</label>
+            <input type="number" name=" phonenumber" id="phonenumber"required>
+          </div>
+
+          <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" id="password"required>
+          </div>
+
+          <div>
+            <input type="checkbox" name="agree" id="agree" value="yes"required>
+            <label for="agree">I agree to the terms and conditions</label>
+          </div>          
+
+            <input type="Submit" value="Signup">
+         </form>
+     </body>
+</html>

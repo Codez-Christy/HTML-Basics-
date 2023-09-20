@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Web</title>
+</head>
+<body>
+    <h1>Fitness Registration Form</h1>
+
+    <form action="Fitness.html"method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"required>
+        </div>
+
+        <div>
+            <label for="Age">Enter your age</label>
+            <input type="number" name="num" min="20" max="80">
+        </div>
+
+        <div>
+            <label for="Exercise">Exercise:</label>
+            <label for="Exercise">Daily</label>
+            <input type="radio" name="exercise" id="daily"value="daily">
+            <label for="Weekly">Weekly</label>
+            <input type="radio" name="exercise" id="weekly"value="weekly">
+            <label for="Monthly">Monthly</label>
+            <input type="radio" name="exercise" id="Monthly"value="Monthly">
+            <label for="Rarely">Rarely</label>
+            <input type="radio" name="Rarely" id="Rarely">
+        </div>
+
+        <div>
+            <label for="exercise">Type of Exercise:</label>
+            <label for="Cardio">Cardio</label>
+            <input type="checkbox" name="cardio" id="cardio"value="yes">
+            <Label for="Strenght">Strenght</Label>
+            <input type="Checkbox" name="Strenght" id="Strenght"value="yes">
+            <Label for="yoga">Yoga</Label>
+            <input type="checkbox" name="Yoga" id="Yoga">
+        </div>
+
+        <div>
+          <label for="Fitness Level">Rate your fitness level</label>
+          <label for="points">Rate Between(0-10)</label>
+          <input type="range" name="points" id="points" min="0"max="10">
+       </div>
+
+       <div>
+        <label for="Motivate">Motivation to Exercise</label>
+        <select name="Motivation" id="Motivation">
+          <option value="Health">Health</option>
+          <option value="Weight loss">Weight Loss</option>
+          <option value="StressRelief">Stress relief</option>
+          <option value="competition">competition</option>
+        </select>    
+       </div>
+
+       <div>
+         <label for="Message">Message</label>
+         <textarea name="Message" id="Message" cols="25" rows="4"></textarea>
+       </div>
+          
+    </form>
+    
+</body>
+</html>
