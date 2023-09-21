@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .form-group {
+         margin-bottom: 15px;
+         background-color: aquamarine;
+      }
+    </style>
 </head>
 <body>
      <!-- comment in HTML 
@@ -53,27 +59,27 @@
         
          <form action="signup.html">
 
-          <div>
+          <div class="form-group">
             <label for="username">username</label>
             <input type="text" name="username" id="username"required>
           </div>
 
-          <div> 
+          <div class="form-group"> 
             <label for="email">Email</label>
             <input type="email" name="email" id="email"required> 
           </div>
 
-          <div>
+          <div class="form-group">
             <label for="phonenumber">phonenumber</label>
             <input type="number" name=" phonenumber" id="phonenumber"required>
           </div>
 
-          <div>
+          <div class="form-group">
             <label for="Password">Password</label>
             <input type="password" name="password" id="password"required>
           </div>
 
-          <div>
+          <div class="form-group">
             <input type="checkbox" name="agree" id="agree" value="yes"required>
             <label for="agree">I agree to the terms and conditions</label>
           </div>          

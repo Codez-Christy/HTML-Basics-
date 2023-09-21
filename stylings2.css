@@ -1,0 +1,16 @@
+/* Element selector */
+h1{
+   font-size:25px
+}
+/* Class selector */
+.highlight{
+    background-color: aqua;
+}
+/* Descendant selector */
+ul li{
+    list-style:circle;
+}
+/* pseudo class selector */
+a:hover{
+    text-decoration: underline ;
+}
