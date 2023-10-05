@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border : 1px solid black;
+          
+            }
+        table {
+            border-spacing: 5px;
+            width: 100%;
+        }
+         th,
+         td {
+            padding: 20px;
+         }
+         th {
+            text-align: left;
+         }
+
+    </style>
+
+</head>
+<body>
+    <!--HTML tables is an arrangement of data in rows and columns or possibly in a more complex structure.
+         HTML Tables is defined with the "table" tag.Each table row is defined with the 'tr' tag.By default table headings are bold and centered.
+         Table data is define with the "td" tag -->
+  
+   <table style="width:100">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Magdaline</td>
+        <td>Tott</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Carol</td>
+        <td>LoraK</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Sam</td>
+        <td>Mwangi</td>
+        <td>42</td>
+    </tr>
+   </table> 
+   <!--*Adding Border to an HTML Table: A border is set using the CSS BORDER property.
+        if you dont specify a border for the table.  See Above
+       * Adding Collapsed Border in HTML Tables : For Border to collapse into one border 
+        add the CSS border collapse property.See Above.
+       * Adding cell padding in a HTML Tables : Cell padding specifies the space between the cell content and its borders.
+       * Adding left align heading in a HTML table : By default the table heading are bold and centered.To align we use the text align Property .
+       * Adding border spacing in a HTML Table : Border spacing specifies the space between the cells .
+         We use the CSS border spacing Property 
+        * Adding Cells that Span Many Columns in HTML Tables: To make a cell span more than one column,
+         we must use the colspan attribute . SEE BELOW-->
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border:1 px Solid black;
+            border-collapse: collapse;
+            
+        }
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cell that span two rows</h2>
+    <table style="width:100%"> 
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Christy Wambui</td>
+            <td>0112038168</td>
+            <td>0797644166</td>
+        </tr>
+
+    </table>
+    <h3>
+        <!-- Adding Cells thats Spans MANY rows in HTML Tables:
+        to make a cell span more tan one row we must use the rowspan attribute -->
+        Example 2
+    </h3>
+    <table style="width:100%">
+      <tr>
+        <th>Name;</th>
+        <td>Christy Wambui</td>
+      </tr> 
+      <tr>
+        <th rowspan="2">Telephone</th>
+        <td>0112038168</td>
+      </tr>
+      <tr>
+        <td>0797644166</td>
+      </tr>
+    </table>
+      <br>
+        <!-- Adding a Background Colour to the Table: 
+            A color can be added as a background in an HTML table using the “background-color” option. -->
+      <br>
+         <table id="yellow">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Magdaline</td>
+            <td>Tott</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Carol</td>
+            <td>Lorak</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Mwangi</td>
+            <td>45</td>
+        </tr>
+
+    </table>
+</body>
+</html>
